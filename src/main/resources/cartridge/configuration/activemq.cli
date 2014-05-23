@@ -1,0 +1,6 @@
+/subsystem=resource-adapters/resource-adapter=activemq-rar-${activemq.version}.rar:add(archive=activemq-rar-${activemq.version}.rar,transaction-support=XATransaction)
+/subsystem=resource-adapters/resource-adapter=activemq-rar-${activemq.version}.rar/config-properties=UserName:add(value=${activemq.username})
+/subsystem=resource-adapters/resource-adapter=activemq-rar-${activemq.version}.rar/config-properties=Password:add(value=${activemq.password})
+/subsystem=resource-adapters/resource-adapter=activemq-rar-${activemq.version}.rar/config-properties=ServerUrl:add(value=tcp://${activemq.host}:${activemq.port})
+/subsystem=resource-adapters/resource-adapter=activemq-rar-${activemq.version}.rar/connection-definitions=ActiveMQConnectionFactoryPool:add(class-name=org.apache.activemq.ra.ActiveMQManagedConnectionFactory, jndi-name=java:/MQConnectionFactory, enabled=true, use-java-context=true, use-ccm=true,min-pool-size=1, max-pool-size=10)
+/subsystem=resource-adapters/resource-adapter=activemq-rar-${activemq.version}.rar/connection-definitions=ActiveMQConnectionFactoryPoolXA:add(class-name=org.apache.activemq.ra.ActiveMQManagedConnectionFactory, jndi-name=java:/MQJmsXA, enabled=true, use-java-context=true, use-ccm=true,min-pool-size=1, max-pool-size=10)
