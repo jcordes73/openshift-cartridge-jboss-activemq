@@ -2,7 +2,7 @@
 
 ## Description
 
-An OpenShift cartridge for provisioning ActiveMQ on the JBoss EAP 6 cartridge.
+An OpenShift cartridge for provisioning ActiveMQ RAR on the JBoss EAP 6 cartridge.
 
 ## Adding ActiveMQ RAR
 
@@ -36,7 +36,7 @@ Below you can find information on what properties are used and can be overriden 
 |--------|-------|
 |activemq.version|5.9.0.redhat-610379|
 |activemq.host|localhost|
-|activemq.port|16161|
+|activemq.port|61616|
 |activemq.username|admin|
 |activemq.password|admin|
 

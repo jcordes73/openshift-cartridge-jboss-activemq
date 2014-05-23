@@ -14,7 +14,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<activemq.version>5.9.0.redhat-610379</activemq.version>
 		<activemq.host>localhost</activemq.host>
-		<activemq.port>16161</activemq.port>
+		<activemq.port>61616</activemq.port>
 		<activemq.username>admin</activemq.username>
 		<activemq.password>admin</activemq.password>
 	</properties>
