@@ -7,7 +7,7 @@
 	<version>1.0.0</version>
 	<packaging>rpm</packaging>
 
-	<name>openshift-cartridge-oracle-jdbc</name>
+	<name>openshift-cartridge-jboss-activemq</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>

@@ -45,7 +45,7 @@ Below you can find information on what properties are used and can be overriden 
 After the build you need to copy the resulting RPM to the target OpenShift node (for convenience I have used the /tmp directory):
 
 ```bash
-scp target/rpm/openshift-cartridge-jboss-activemq-jdbc/RPMS/noarch/openshift-cartridge-jboss-activemq-${project.version}-1.noarch.rpm root@${openshift.node.ip}:/tmp
+scp target/rpm/openshift-cartridge-jboss-activemq/RPMS/noarch/openshift-cartridge-jboss-activemq-${project.version}-1.noarch.rpm root@${openshift.node.ip}:/tmp
 ```
 
 then install it using

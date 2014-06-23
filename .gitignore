@@ -1,0 +1,5 @@
+/target
+/.project
+/.settings
+/.classpath
+/src/main/resources/cartridge/configuration/activemq-rar-5.9.0.redhat-610379.rar
